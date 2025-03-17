@@ -1,6 +1,6 @@
 import sys
 import logging
-from logger import LOG_FILE_PATH  # If error is occured then log file will be created in logs folder
+from src.logger import logging  # If error is occured then log file will be created in logs folder
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
