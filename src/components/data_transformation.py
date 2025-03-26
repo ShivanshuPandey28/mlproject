@@ -11,7 +11,6 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from src.exception import CustomException
 from src.logger import logging
 import os
-
 from src.utils import save_object
 
 # Configuration class to define file path for saving the preprocessor object
