@@ -20,12 +20,14 @@ This project is designed to predict student performance based on various input f
 - `train_pipeline.py`: Reserved for the model training pipeline (currently empty, to be implemented).
 
 ## Artifacts
-artifacts/model.pkl: Saved trained machine learning model.
-artifacts/proprocessor.pkl: Saved preprocessor for data scaling and transformation.
+- artifacts/model.pkl: Saved trained machine learning model.
+- artifacts/proprocessor.pkl: Saved preprocessor for data scaling and transformation.
 
-# Data Collection --> Data Preprocessing --> Model Training --> Model Prediction --> Logging and Error Handling --> Evaluation and Iteration
 
 # End-to-End Workflow
+
+## Data Collection --> Data Preprocessing --> Model Training --> Model Prediction --> Logging and Error Handling --> Evaluation and Iteration
+
 ## 1. Data Collection
 Gather student performance data including features: gender, race/ethnicity, parental level of education, lunch type, test preparation course, reading score, and writing score.
 Store data in a suitable format (e.g., CSV file) for processing.
